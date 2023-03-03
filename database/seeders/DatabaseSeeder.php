@@ -27,8 +27,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         User::factory(4)->create();
-        // products per shop = 1875
-        Shop::factory(24)->has(Product::factory(18))->create();
+        Shop::factory(24)->has(Product::factory(1875))->create();
         User::factory()->create([
             'first_name' => 'Janusz',
             'last_name' => 'Nosacz',
