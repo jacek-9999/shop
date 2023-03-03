@@ -20,9 +20,5 @@ class WeatherTest extends TestCase
         $this->assertTrue(isset($output['coord']));
         $this->assertTrue(isset($output['weather']));
         $this->assertTrue(isset($output['base']));
-//        $output = [];
-//        var_dump($output);exit;
-//        $this->assertEquals([], $output);
-//        $this->fail();
     }
 }
